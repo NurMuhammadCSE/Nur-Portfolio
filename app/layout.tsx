@@ -11,7 +11,7 @@ const nunito = Nunito({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Nur Muhammad | Portfolio",
   description:
-    "Portfolio of Nur Muhammad, Full Stack Developer located in Gazipur",
+    "Portfolio of Nur Muhammad, Full Stack Developer located in Bangladesh",
 };
 
 export default function RootLayout({
