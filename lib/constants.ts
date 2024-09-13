@@ -1,0 +1,43 @@
+export const skills = {
+  theObvious: [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Typescript",
+    "Python",
+    "C/C++",
+    // "Rest APIs / JSON",
+    // "React Hooks",
+    // "fetch / axios"
+  ],
+  librariesFrameworks: [
+    "ReactJS",
+    "NextJS",
+    "Tailwind CSS",
+    "MaterialUI",
+    "Ant Design",
+    
+    "DaisyUI",
+    "Cypress",
+    "Jest",
+    "Redux",
+    "NodeJS",
+    "Mongoose",
+    "MongoDB",
+    "",
+  ],
+  toolsOfTheTrade: [
+    "Github",
+    "Jira / Bitbucket",
+    "Chrome Dev",
+    "Vercel",
+    "Railway",
+    "Heroku",
+    "Netlify",
+    "Firebase",
+    "Figma",
+    "Supabase",
+    "git",
+    "npm / yarn",
+  ],
+};
