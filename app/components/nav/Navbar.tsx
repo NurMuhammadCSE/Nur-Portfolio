@@ -3,7 +3,12 @@ import DarkModeToggle from "../DarkModeToggle";
 import MobileNavDropdown from "./MobileNavDropdown";
 
 const Logo = ({ className }: { className?: string }) => {
-  return <img alt="logo" src="/p2logo.png" className={`w-16 ${className}`} />;
+  return (
+    <div>
+      {/* <img alt="logo" src="/p2logo.png" className={`w-16 ${className}`} /> */}
+      <h1 className="text-xl font-semibold">Nur</h1>{" "}
+    </div>
+  );
 };
 
 export const navLinks = [
@@ -38,7 +43,9 @@ const Navbar = () => {
         <ul className="menu menu-horizontal items-center gap-10 hidden md:flex">
           {navLinks.map((link, index) => (
             <li key={index}>
-              <Link  className="text-xl font-semibold" href={link.href}>{link.label}</Link>
+              <Link className="text-xl font-semibold" href={link.href}>
+                {link.label}
+              </Link>
             </li>
           ))}
           <li>

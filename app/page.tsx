@@ -43,8 +43,8 @@ const BulletPoints = () => {
       {/* <li>
         <a href="mailto:nurmuhammadd2003@gmail.com">📧 let's get in touch!</a>
       </li> */}
-      <li>
-        📝Download my{" "}
+      <li className="flex items-center">
+        📝Download my {"  "}
         <a
           className="link link-primary"
           href="/NurMuhammad.pdf"
@@ -91,7 +91,9 @@ export default function Home() {
             </span>
             {/* <WavingHand /> */}
           </h1>
-          <h2 className="text-3xl font-semibold">I'm a Full Stack Developer.</h2>
+          <h2 className="text-3xl font-semibold">
+            I'm a Full Stack Developer.
+          </h2>
         </div>
         <BulletPoints />
         {/* socials */}
