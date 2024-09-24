@@ -6,7 +6,7 @@ const Logo = ({ className }: { className?: string }) => {
   return (
     <div>
       {/* <img alt="logo" src="/p2logo.png" className={`w-16 ${className}`} /> */}
-      <h1 className="text-xl font-semibold">Nur</h1>{" "}
+      <h1 className={`w-16 ${className} text-xl font-semibold`}>Nur</h1>{" "}
     </div>
   );
 };
