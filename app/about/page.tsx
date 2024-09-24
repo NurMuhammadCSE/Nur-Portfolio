@@ -61,6 +61,10 @@ const About = () => {
             <b>Tamirul Millat Kamil Madrasah, Gazipur</b> <br />
             Alim, Science (2021) - GPA 5.00
           </li>
+          <li>
+            <b>Darunnazat Siddilia Kamil Madrasah, Dhaka</b> <br />
+            Dakhil, Science (2019) - GPA 4.78
+          </li>
         </ul>
       </FakeTerminalWindow>
 
