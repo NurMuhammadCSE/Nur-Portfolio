@@ -44,8 +44,8 @@ const Portfolio = () => {
               <Image
                 src={project.mockup}
                 alt="mock up"
-                width={400}
-                height={400}
+                width={500}
+                height={500}
               />
               <h1 className="text-3xl mb-2">{project.title}</h1>
               <div className="flex gap-4 mb-2">

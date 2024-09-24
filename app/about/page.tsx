@@ -21,16 +21,9 @@ const About = () => {
         <p>
           Hello there! I'm Nur, a Full Stack Dev <b>from Bangladesh</b>,
           specializing in <b>React, Redux, NodeJS/Express, and NextJS</b>. I've
-          been working professionally as a developer for about 1 years now, and
-          I'm currently focused on learning PostgreSQL, and Prisma.
+          been working professionally as a developer for about 1 year now, and
+          I'm currently focused on learning PostgreSQL and Prisma.
         </p>
-        {/* <p>
-          Outside of my coding life, I live on a little homestead with 15
-          chickens and a vegetable garden. My husband, two cats, and I decided
-          to leave our small city and pursue a quieter life, and I couldn't be
-          happier that we did! We bought a farmhouse was built in 1942 and we
-          are working hard to learn new skills to produce our own food.
-        </p> */}
       </FakeTerminalWindow>
 
       {/* skills & tools */}
@@ -55,18 +48,32 @@ const About = () => {
         </div>
       </FakeTerminalWindow>
 
+      {/* academic background */}
+      <FakeTerminalWindow>
+        <Prompt content="cd academicBackground/" />
+        <Prompt directory="/academicBackground" branch={true} content="ls" />
+        <ul className="space-y-2">
+          <li>
+            <b>Govt. Madrasah-e-Alia, Dhaka</b> <br />
+            Fazil Honors 2nd Year in Al-Quran and Islamic Studies
+          </li>
+          <li>
+            <b>Tamirul Millat Kamil Madrasah, Gazipur</b> <br />
+            Alim, Science (2021) - GPA 5.00
+          </li>
+        </ul>
+      </FakeTerminalWindow>
+
       {/* hobbies / interests */}
       <FakeTerminalWindow>
         <Prompt content="cd HobbiesAndInterests/" />
         <Prompt directory="/HobbiesAndInterests" branch={true} content="ls" />
         <ul>
           <li>📚 Reading</li>
-          <li>🎬 movies</li>
-          <li>🏃‍♂️ running</li>
-          <li>👨‍🏫 teaching</li>
-          {/* <li>🧶 crochet</li> */}
-          {/* <li>🐔 animals</li> */}
-          <li>👩🏻‍🌾 gardening</li>
+          <li>🎬 Movies</li>
+          <li>🏃‍♂️ Running</li>
+          <li>👨‍🏫 Teaching</li>
+          <li>👩🏻‍🌾 Gardening</li>
         </ul>
       </FakeTerminalWindow>
     </div>

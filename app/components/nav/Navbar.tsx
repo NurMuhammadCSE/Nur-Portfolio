@@ -33,6 +33,11 @@ export const navLinks = [
     href: "/blog",
     mobile: true,
   },
+  {
+    label: "Contact",
+    href: "/contact",
+    mobile: true,
+  },
 ];
 
 const Navbar = () => {
