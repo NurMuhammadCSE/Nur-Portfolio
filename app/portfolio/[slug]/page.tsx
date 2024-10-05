@@ -27,7 +27,7 @@ const projects = [
       "MongoDB",
     ],
     mockup: "/mockups/gadget.png",
-    live: "https://electronic-gadgets-shop-frontend.vercel.app/",
+    live: "https://electronic-gadget-hub-final.vercel.app/",
     code: "https://github.com/NurMuhammadCSE/Electronic-Gadgets-Shop-Frontend/",
   },
   {

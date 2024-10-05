@@ -3,12 +3,12 @@ import Prompt from "../components/about/Prompt";
 import { skills } from "../../lib/constants";
 
 const SkillList = ({ title, items }: { title: string; items: string[] }) => (
-  <>
+  <div>
     <li className="text-secondary font-semibold">{title}/</li>
     {items.map((item, index) => (
       <li key={index}>{item}</li>
     ))}
-  </>
+  </div>
 );
 
 const About = () => {

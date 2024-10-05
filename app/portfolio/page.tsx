@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Electronic Gadget",
     mockup: "/mockups/gadget.png",
-    live: "https://electronic-gadgets-shop-frontend.vercel.app/",
+    live: "https://electronic-gadget-hub-final.vercel.app/",
     code: "https://github.com/NurMuhammadCSE/Electronic-Gadgets-Shop-Frontend/",
     detailsPage: "/portfolio/electronic-gadget", // Add route for details
   },
@@ -50,19 +50,19 @@ const Portfolio = () => {
               <h1 className="text-3xl mb-2">{project.title}</h1>
               <div className="flex gap-4 mb-2">
                 <Link
-                  href={project.live}
+                  href={project.detailsPage}
                   target="_blank"
-                  className="btn btn-secondary"
+                  className="btn btn-primary"
                 >
-                  Live
+                  Details
                 </Link>
-                <Link
+                {/* <Link
                   href={project.code}
                   target="_blank"
                   className="btn btn-primary"
                 >
                   Source
-                </Link>
+                </Link> */}
               </div>
             </div>
           </Link>
@@ -72,10 +72,7 @@ const Portfolio = () => {
   );
 };
 
-export default dynamic(() => Promise.resolve(Portfolio), {ssr:false});
-
-
-
+export default dynamic(() => Promise.resolve(Portfolio), { ssr: false });
 
 // import Image from "next/image";
 // import Link from "next/link";
