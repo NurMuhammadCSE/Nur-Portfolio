@@ -26,11 +26,11 @@ const projects = [
     detailsPage: "/portfolio/mobile-shop", // Add route for details
   },
   {
-    title: "PC Builder",
-    mockup: "/mockups/pc.jpg",
-    live: "https://pc-builder-azure-ten.vercel.app/",
-    code: "https://github.com/NurMuhammadCSE/pc-builder",
-    detailsPage: "/portfolio/pc-builder", // Add route for details
+    title: "Portfolio Website",
+    mockup: "/mockups/portfolio.png",
+    live: "https://nur-muhammad.vercel.app/",
+    code: "https://github.com/NurMuhammadCSE/Nur-Portfolio",
+    detailsPage: "/portfolio/portfolio-website", // Add route for details
   },
 ];
 
