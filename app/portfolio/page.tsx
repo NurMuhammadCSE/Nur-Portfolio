@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Electronic Gadget",
     mockup: "/mockups/gadget.png",
-    live: "https://electronic-gadget-hub-final.vercel.app/",
+    live: "https://electronic-gadgets-shop-final.vercel.app/",
     code: "https://github.com/NurMuhammadCSE/Electronic-Gadgets-Shop-Frontend/",
     detailsPage: "/portfolio/electronic-gadget", // Add route for details
   },
